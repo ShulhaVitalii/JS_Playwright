@@ -60,59 +60,54 @@
   },
   "suites": [
     {
-      "title": "tests\\addToCartWithFixture.test.ts",
-      "file": "tests/addToCartWithFixture.test.ts",
+      "title": "api\\tests\\createProductApi.test.ts",
+      "file": "api/tests/createProductApi.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Page object tests",
-          "file": "tests/addToCartWithFixture.test.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
+          "title": "create product",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Login test_02",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1205,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 3795,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-04-17T08:07:15.742Z",
-                      "attachments": []
+                      "text": "{ id: \u001b[33m101\u001b[39m, title: \u001b[32m'bla bla bla'\u001b[39m }\n"
                     }
                   ],
-                  "status": "expected"
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-18T13:24:03.817Z",
+                  "attachments": []
                 }
               ],
-              "id": "9100dff5f750b3fd8f5c-26a6e50c1803399aaa1d",
-              "file": "tests/addToCartWithFixture.test.ts",
-              "line": 20,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "d98f1a865fd3e9ffca55-93a10cfd2f5e4e7dd981",
+          "file": "api/tests/createProductApi.test.ts",
+          "line": 23,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-04-17T08:07:15.096Z",
-    "duration": 4979.052,
+    "startTime": "2024-04-18T13:24:01.885Z",
+    "duration": 3307.245,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
